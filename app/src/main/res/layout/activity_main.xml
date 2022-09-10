@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="331dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/background"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:hint="Enter Amount"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="#636E72"
+        android:textColorHint="#636E72"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_percent"
+        android:layout_width="328dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="15%"
+        android:textColor="#636E72"
+        android:textSize="20dp" />
+
+    <SeekBar
+        android:id="@+id/sb_percent"
+        android:layout_width="325dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:max="30"
+        android:progress="15" />
+
+    <TextView
+
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Tip"
+        android:textColor="#636E72"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="215dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/background2"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="0.00"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Total"
+        android:textColor="#636E72"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="215dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/background2"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="0.00"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>
+
+
